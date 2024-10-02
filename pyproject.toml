@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "video-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Eduardo Silva <eduardo__lps@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+motor = "^3.6.0"
+chromadb = "^0.5.11"
+watchfiles = "0.21.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+numpy = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+seaborn = "^0.13.2"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
