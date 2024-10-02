@@ -9,6 +9,8 @@ To run the project you will need [Docker](https://docs.docker.com/engine/install
 docker compose up
 ```
 
+You can then access the Swagger UI at localhost:8080/docs.
+
 ## Dataset Analysis
 A general analysis of the dataset reveals that:
 * There are 3 topics with a significantly higher number of associated videos (People & Family & Pets, FoodBev, Health Care).
